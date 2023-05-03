@@ -64,8 +64,8 @@
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Grab\SnapSurfaces\SnapSurfaceHelper.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Core\InteractableGroup.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Attributes\SectionAttribute.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Grabbable\TwoGrabPlaneTransformer.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Input\OVRIntegration\InputDataProviderUpdateTriggerOVR.cs" />
+    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Grabbable\TwoGrabPlaneTransformer.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\PoseDetection\IFeatureStateThreshold.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Core\IInteractorDriver.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Input\OneEuroFilter\OneEuroFilterFactory.cs" />
@@ -129,8 +129,8 @@
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\PoseDetection\ColliderContainsHandJointActiveState.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\HandGrab\HandGrabPose.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Unity\UnityCanvas\CanvasMeshRenderer.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\DistanceGrab\Visuals\DistantInteractionLineRendererVisual.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Unity\PointableCanvas.cs" />
+    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\DistanceGrab\Visuals\DistantInteractionLineRendererVisual.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\DistanceGrab\DistanceGrabInteractable.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Movements\IMovementProvider.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\UseGrab\UseFingerRawPinchAPI.cs" />
@@ -146,8 +146,8 @@
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\HandGrab\IHandGrabState.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\DistanceGrab\DistantPointDetector.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Surfaces\IBounds.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Grab\Visuals\HandJointMap.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Transformable\InteractableTransformableConnection.cs" />
+    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Grab\Visuals\HandJointMap.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Movements\FollowTargetProvider.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Transformable\SnapPoint.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Grab\FingerPinchAPI.cs" />
@@ -196,8 +196,8 @@
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Grab\SnapSurfaces\BoxSurface.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Input\Hands\DataModifiers\SyntheticHandModifier.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Polyline\PolylineRenderer.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Grab\FingerGrabAPI.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\Locomotion\Teleport\PitchRemap.cs" />
+    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Grab\FingerGrabAPI.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Unity\UnityCanvas\UpdateCanvasSortingOrder.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Grab\SnapSurfaces\CylinderSurface.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Grabbable\IGrabbable.cs" />
@@ -287,8 +287,8 @@
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Input\Hands\IHandSkeletonProvider.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Unity\SelectorUnityEventWrapper.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Selection\Hands\HandTransformScaler.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Input\IAxis1D.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Movements\MoveTowardsTargetProvider.cs" />
+    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Input\IAxis1D.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\Locomotion\Teleport\TeleportInteractable.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Input\HMD\HmdDataAsset.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Unity\PointableUnityEventWrapper.cs" />
@@ -342,8 +342,8 @@
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\HandGrab\HandGrabPoint.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\Locomotion\Turn\LocomotionAxisTurnerInteractor.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Input\Hands\FromHandPrefabDataSource.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\DistanceGrab\Visuals\ReticleDataGhost.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Unity\PhysicsTransformable.cs" />
+    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\DistanceGrab\Visuals\ReticleDataGhost.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\PoseDetection\Debug\ActiveStateDebugVisual.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Core\BestSelectInteractorGroup.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Visuals\IHandVisual.cs" />
@@ -386,8 +386,8 @@
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Unity\PointableCanvasModule.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\DropZone\DropZoneInteractor.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Input\Controllers\ControllerDataAsset.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Core\InteractorGroupMulti.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Input\Hands\HandPrimitives.cs" />
+    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Core\InteractorGroupMulti.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Unity\Input\InputMouseButton.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Input\HMD\HmdDataSourceConfig.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\PoseDetection\Debug\FingerFeatureSkeletalDebugVisual.cs" />
@@ -421,8 +421,8 @@
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Grab\SnapSurfaces\SphereSurface.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Unity\UnityInfo.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\Locomotion\LocomotionEventsConnection.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\PoseDetection\JointRotationActiveState.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Grab\SnapSurfaces\ISnapSurface.cs" />
+    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\PoseDetection\JointRotationActiveState.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Input\Hands\DataModifiers\HandFilter.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Movements\ObjectPullProvider.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\DistanceGrab\DistantCandidateComputer.cs" />
@@ -449,8 +449,8 @@
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\PoseDetection\IFeatureThresholds.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Collections\EnumerableHashSet.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\Snap\Visuals\SnapInteractorFollowVisual.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\Snap\SurfaceSnapPoseDelegate.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Visuals\SelectorDebugVisual.cs" />
+    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\Snap\SurfaceSnapPoseDelegate.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\DistanceGrab\Visuals\ReticleGhostDrawer.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Collisions\ClosestPointToColliders.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Grab\SnapSurfaces\GrabPoseHelper.cs" />
@@ -471,15 +471,15 @@
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Pointable\IPointable.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Input\Axis1DSwitch.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Grab\FingerRawPinchAPI.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\DistanceGrab\Visuals\TubeRenderer.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Grab\HandGrab.cs" />
+    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\DistanceGrab\Visuals\TubeRenderer.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Surfaces\ISurface.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\TouchHandGrab\TouchHandGrabInteractorVisual.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Input\HMD\Hmd.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Core\IInteractableFilter.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Unity\PointableCanvasUnityEventWrapper.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Unity\CanvasMeshPointable.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\UseGrab\Axis1DFingerUseAPI.cs" />
+    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Unity\CanvasMeshPointable.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\DistanceGrab\Visuals\IReticleData.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\PoseDetection\FeatureStateProvider.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Grab\FingerPalmGrabAPI.cs" />
@@ -507,8 +507,8 @@
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\Locomotion\Teleport\Visuals\TeleportReticleDrawer.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Grab\SnapSurfaces\ColliderSurface.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\PoseDetection\TransformFeatureValueProvider.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\PoseDetection\Debug\HandShapeDebugVisual.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\Grab\ITween.cs" />
+    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\PoseDetection\Debug\HandShapeDebugVisual.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Input\HMD\IHmd.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Selection\Hands\ShoulderEstimatePosition.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Grabbable\FloatConstraint.cs" />

@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{34B02785-9A1A-1D4C-17A8-E883EF6DF9EC}</ProjectGuid>
+    <ProjectGuid>{0FDB28C6-0857-5A34-6ABB-1398E3D4E795}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Meta.WitAi</AssemblyName>
+    <AssemblyName>Unity.XR.Simulation</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -26,7 +26,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -35,7 +35,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoConfig>true</NoConfig>
@@ -58,107 +58,62 @@
     <Analyzer Include="C:\Program Files\Unity Hub\Editor\2022.2.17f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Interfaces\IAudioInputSource.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\CallbackHandlers\ConfidenceRange.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\CallbackHandlers\WitUtteranceMatcher.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\DynamicEntityDataProvider.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\WitRequestCreatedEvent.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\ResponseManager\ValidatePartialIntent.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\AudioBuffer.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Utilities\CoroutineUtility.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\AudioDurationTracker.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Configuration\WitConfiguration.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\VoiceState.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\RingBuffer.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\CallbackHandlers\SimpleIntentHandler.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\WitEntityKeyword.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\WitEntity.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\AudioBufferConfiguration.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Utilities\AudioClipAudioSource.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Configuration\WitRuntimeConfiguration.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Lib\WitResponse.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Interfaces\IAudioEventProvider.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\VoiceSession.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Interfaces\IAudioInputEvents.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\WitConduitParameterProvider.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\EventCategoryAttribute.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\WitDynamicEntity.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Utilities\DictionaryList.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\WitService.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\WitMicLevelChangedEvent.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Traits\WitTraitValue.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\WitRequestFactory.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Settings\WitSettingsUtility.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\CallbackHandlers\WitIntentMatcher.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\WitResponseEvent.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\WitRequestOptionsEvent.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Lib\MicBase.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Interfaces\CustomTranscriptionProvider.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Utilities\DynamicRangeAttribute.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\WrapHttpWebRequest.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\WitByteDataEvent.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Utilities\FloatToStringEvent.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\TelemetryEvents.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Interfaces\ITranscriptionEvent.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\WitAuthUtility.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\AudioBufferEvents.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Interfaces\ITranscriptionEventProvider.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\EntityRegistryComponents\RegisteredDynamicEntityKeyword.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\CallbackHandlers\WitResponseHandler.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Interfaces\IDynamicEntitiesProvider.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Interfaces\ITranscriptionProvider.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\ServiceReferences\AudioInputServiceReference.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\IRequest.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Settings\WitSettings.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\WitFloatValue.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Traits\WitTrait.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\DynamicEntityProvider.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\ServiceReferences\CombinedAudioEventReference.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\ResponseManager\MatchIntent.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Intents\WitIntentData.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\CallbackHandlers\OutOfScopeUtteranceHandler.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Configuration\WitEndpointConfig.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\AudioEncoding.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Wit.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Intents\WitIntent.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Configuration\WitRequestOptions.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\UnityEventListeners\TranscriptionEventListener.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Configuration\WitApplication.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\ServiceReferences\VoiceServiceAudioEventReference.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Configuration\WitConfigurationData.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\WitIntValue.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\ResponseManager\MatchIntentRegistry.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Utilities\GameObjectSearchUtility.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Lib\MicDebug.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\EventRegistry.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Utilities\IOUtility.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\VoiceEvents.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\WitRequest.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\WitErrorEvent.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\WitStringValue.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\WitTranscriptionEvent.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\CallbackHandlers\SimpleStringEntityHandler.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\WitEntityData.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\VoiceService.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\WitSimpleDynamicEntity.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\AudioDurationTrackerFinishedEvent.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\CallbackHandlers\WitResponseMatcher.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Utilities\VoiceServiceReference.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Interfaces\IWitConfigurationProvider.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\WitValidationEvent.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\WitDynamicEntitiesData.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\WitEntityRole.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\EntityRegistryComponents\DynamicEntityKeywordRegistry.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\WitDynamicEntities.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Interfaces\IWitRequestProvider.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\WitResultUtilities.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\AssemblyInfo.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Lib\Mic.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\WitValue.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\UnityEventListeners\AudioEventListener.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\CameraTextureFrameEventArgs.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\ImageTracking\TrackedImageDiscoveryParams.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\SimulationCameraSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\Plane\PlaneVoxelGrid.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\SimulationXRCpuImageAPI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\BaseSimulationSceneManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\SimulationSessionSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\EnvironmentScanParams.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\Plane\PlaneVoxel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\Raycast\SimulationRaycasterRegistry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\SimulationEnvironmentScanner.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\CameraTextureProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Environment\SimulatedBoundedPlane.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Environment\SimulationEnvironment.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Environment\XREnvironmentViewCamera.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\Raycast\SimulationRaycastSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Environment\SimulatedTrackedImage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Environment\SimulatedMeshClassification.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\ISimulationSessionResetHandler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\ImageTracking\SimulationRuntimeImageLibrary.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\XRSimulationPreferences.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\Plane\Visualizers\SimulationPlaneVisualizer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\Meshing\SimulationMesh.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\SimulationSceneManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Analytics\SimulationSubsystemAnalytics.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\ImageTracking\SimulationImageTrackingSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\ImageTracking\SimulationTrackedImageDiscoverer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\SimulationLoader.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\Plane\PlaneRaycaster.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\ImageTracking\TrackedImageDiscoveryStrategy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\SimulationApi.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\CameraFPSModeHandler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\Plane\LayerPlaneData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\Plane\SimulationPlaneSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Input\InputLayoutLoader.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Environment\XRayRuntimeUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\SimulationCamera.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\Plane\DiscoveredPlane.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\Raycast\IRaycaster.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\PointCloud\SimulationPointCloudSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\PointCloud\PointCloudRaycaster.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Environment\SimulationRenderSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\XRSimulationRuntimeSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\SimulationConstants.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\Plane\PlaneFindingParams.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\SimulationXRayManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\Plane\Visualizers\SimulationVoxelVisualizer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\Plane\VoxelGridOrientation.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Environment\XRayRegion.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\Plane\PlaneDiscoveryVoxelGrid.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Subsystems\Meshing\SimulationMeshSubsystem.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\ThirdPartyInstallments\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Facebook.Wit.asmdef" />
+    <None Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Unity.XR.Simulation.asmdef" />
+    <None Include="Library\PackageCache\com.unity.xr.arfoundation@5.0.5\Runtime\Simulation\Plugins\windows\XRSimulationSubsystem.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -838,25 +793,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Meta.WitAi.Lib.csproj">
-      <Project>{9D299F47-B38B-2F70-A45F-A0F790E031FC}</Project>
-      <Name>Meta.WitAi.Lib</Name>
+    <ProjectReference Include="Unity.XR.ARSubsystems.csproj">
+      <Project>{F8E36D6F-3CFE-BE3A-9B47-763AB68AC9DC}</Project>
+      <Name>Unity.XR.ARSubsystems</Name>
     </ProjectReference>
-    <ProjectReference Include="Meta.WitAi.Conduit.csproj">
-      <Project>{6FA9C4C6-7D48-4C6F-2DBF-97A6EBA59667}</Project>
-      <Name>Meta.WitAi.Conduit</Name>
+    <ProjectReference Include="Unity.XR.Management.csproj">
+      <Project>{427225DB-82B8-AF37-9F55-4DE48782F2AB}</Project>
+      <Name>Unity.XR.Management</Name>
     </ProjectReference>
-    <ProjectReference Include="Meta.VoiceSDK.Mic.Common.csproj">
-      <Project>{1C212986-0D45-5C22-DE70-E6B40C309B9B}</Project>
-      <Name>Meta.VoiceSDK.Mic.Common</Name>
+    <ProjectReference Include="Unity.XR.CoreUtils.csproj">
+      <Project>{378D00EB-EED3-1C91-722B-5C9F78AFF397}</Project>
+      <Name>Unity.XR.CoreUtils</Name>
     </ProjectReference>
-    <ProjectReference Include="Meta.VoiceSDK.Mic.Other.csproj">
-      <Project>{4BBB4766-30AA-A1F7-2EAA-988870ECB4A7}</Project>
-      <Name>Meta.VoiceSDK.Mic.Other</Name>
+    <ProjectReference Include="Unity.InputSystem.csproj">
+      <Project>{FCCC2230-0942-7D66-8B8E-585BBBCF1A7F}</Project>
+      <Name>Unity.InputSystem</Name>
     </ProjectReference>
-    <ProjectReference Include="Meta.VoiceSDK.Mic.WebGL.csproj">
-      <Project>{F916CAE6-35E1-9061-A801-DB4A321773AF}</Project>
-      <Name>Meta.VoiceSDK.Mic.WebGL</Name>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{85F7B31D-6465-B1B2-858E-B73B06E24493}</Project>
+      <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARFoundation.InternalUtils.csproj">
+      <Project>{091B8915-753E-019D-4E2D-6CF02562AE41}</Project>
+      <Name>Unity.XR.ARFoundation.InternalUtils</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

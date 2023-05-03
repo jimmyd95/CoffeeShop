@@ -74,8 +74,8 @@
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupRenderingTasks.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\VR\Editor\OVRProjectSetup\Tasks\OVRConfigurationTask.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\VR\Editor\OVRProjectSetup\Tasks\Processors\OVRConfigurationTaskUpdaterSummary.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\VR\Editor\OVRProjectSetup\Tasks\Processors\OVRConfigurationTaskFixer.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\VR\Editor\OVRConfig.cs" />
+    <Compile Include="Assets\ThirdPartyInstallments\Oculus\VR\Editor\OVRProjectSetup\Tasks\Processors\OVRConfigurationTaskFixer.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\VR\Editor\OVRBundleTool.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\VR\Editor\OVRProjectSetup\Tasks\OVRConfigurationTaskException.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\VR\Editor\OVRProjectSetup\OVRProjectSetupSettingsProvider.cs" />
@@ -104,8 +104,8 @@
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\VR\Editor\OVRBuild.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\VR\Editor\OVRProjectSetup\Utils\SerializableDictionary.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\VR\Editor\OVRLint.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupCompatibilityTasks.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\VR\Editor\OVRProjectSetup\OVRProjectSetupSettings.cs" />
+    <Compile Include="Assets\ThirdPartyInstallments\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupCompatibilityTasks.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\VR\Editor\OVRPluginUpdater.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\VR\Editor\OVRScreenshotWizard.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\VR\Editor\OVRProjectSetup\Tasks\OVRConfigurationTaskSourceCode.cs" />

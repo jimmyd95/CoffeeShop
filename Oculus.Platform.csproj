@@ -159,8 +159,8 @@
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\Models\SendInvitesResult.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\Models\AssetFileDownloadCancelResult.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Samples\VrHoops\Scripts\DetectBasket.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\Models\LanguagePackInfo.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Samples\VrHoops\Scripts\AchievementsManager.cs" />
+    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\Models\LanguagePackInfo.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\Models\CalApplicationProposed.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\LivestreamingStartStatus.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\Models\Error.cs" />
@@ -187,8 +187,8 @@
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\MatchmakingStatApproach.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\Models\PartyID.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\LeaderboardStartAt.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\SendPolicy.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\ServiceProvider.cs" />
+    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\SendPolicy.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\Models\LaunchDetails.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Samples\VrHoops\Scripts\LeaderboardManager.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\Models\Team.cs" />
@@ -202,8 +202,8 @@
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\Models\NetSyncConnection.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\LivestreamingMicrophoneStatus.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Samples\VrHoops\Scripts\PlatformManager.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\VoipInput.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\Models\AchievementProgress.cs" />
+    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\VoipInput.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\ChallengeOptions.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\Models\LivestreamingStatus.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Platform\Scripts\Models\MatchmakingAdminSnapshot.cs" />
