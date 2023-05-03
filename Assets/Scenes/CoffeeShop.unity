@@ -366,7 +366,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &216458033
 GameObject:
@@ -691,7 +691,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9182010656781025855, guid: 1da2aec74ab52434bada8ee68414d38f, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9182010656781025855, guid: 1da2aec74ab52434bada8ee68414d38f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1375,7 +1375,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1155965725458991465, guid: 2052d2fb8133b7244a1a7b787a72625d, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1155965725458991465, guid: 2052d2fb8133b7244a1a7b787a72625d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1958,7 +1958,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3645250802154529302, guid: e62f3fc0702b87b48906880f5acda428, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3645250802154529302, guid: e62f3fc0702b87b48906880f5acda428, type: 3}
       propertyPath: m_LocalScale.x
@@ -2235,7 +2235,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 18689f733cbf0774ab1dd44b2bd0043d, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 18689f733cbf0774ab1dd44b2bd0043d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2392,7 +2392,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
@@ -2473,7 +2473,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 12585854108602200, guid: 0ba207b04a3adcf4889dcebd622d8a21, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 12585854108602200, guid: 0ba207b04a3adcf4889dcebd622d8a21, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3835,8 +3835,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 1176316204}
-  m_SecondaryAttachTransform: {fileID: 744291700}
+  m_AttachTransform: {fileID: 0}
+  m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
@@ -3998,7 +3998,7 @@ Transform:
   - {fileID: 6263402492430438772}
   - {fileID: 5020599551217662144}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &2377489189252325072
 GameObject:
@@ -4384,8 +4384,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 2138001508}
-  m_SecondaryAttachTransform: {fileID: 380109614}
+  m_AttachTransform: {fileID: 0}
+  m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
