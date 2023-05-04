@@ -58,21 +58,21 @@
     <Analyzer Include="C:\Program Files\Unity Hub\Editor\2022.2.17f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\XRHandProviderUtility.deprecated.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\XRHandSubsystemDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\XRHandProviderUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\XRHandDevice.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\OpenXR\MetaHandTrackingAim.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\OpenXR\HandTracking.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\Enums.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\XRHandSubsystemProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\XRHandJoint.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\OpenXR\MetaHandTrackingAim.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\XRHandSubsystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\XRHandSubsystem.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\XRHand.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\XRHandProviderUtility.deprecated.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\XRHandSubsystemDescriptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\OpenXR\OpenXRHandProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\XRHandProviderUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\XRHandDevice.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\MetaAim.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\OpenXR\MetaHandTrackingAim.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\OpenXR\HandTracking.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\Enums.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\XRHandSubsystemProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.hands@1.1.0\Runtime\MetaAim.deprecated.cs" />
   </ItemGroup>
   <ItemGroup>

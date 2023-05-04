@@ -58,15 +58,15 @@
     <Analyzer Include="C:\Program Files\Unity Hub\Editor\2022.2.17f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.xr.arcore@5.0.5\Editor\ARCoreSettingsProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arcore@5.0.5\Editor\ArCoreImg.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arcore@5.0.5\Editor\Java.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arcore@5.0.5\Editor\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@5.0.5\Editor\Cli.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@5.0.5\Editor\ARCoreImageLibraryBuildProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@5.0.5\Editor\Gradle.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@5.0.5\Editor\ARCoreBuildProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@5.0.5\Editor\ARCorePackageMetadata.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arcore@5.0.5\Editor\ARCoreSettingsProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arcore@5.0.5\Editor\ArCoreImg.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arcore@5.0.5\Editor\Java.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arcore@5.0.5\Editor\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@5.0.5\Editor\ARCoreSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@5.0.5\Editor\ProjectValidation\ARCoreProjectValidationRules.cs" />
   </ItemGroup>

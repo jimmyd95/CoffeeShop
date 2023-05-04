@@ -1016,13 +1016,13 @@
       <Project>{9D299F47-B38B-2F70-A45F-A0F790E031FC}</Project>
       <Name>Meta.WitAi.Lib</Name>
     </ProjectReference>
-    <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
-      <Project>{907FA1DE-C683-1959-C953-BF322BDDCE5D}</Project>
-      <Name>Oculus.Spatializer.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.ARCore.Editor.csproj">
       <Project>{CC50FA83-E641-EF61-2A28-15E71ABE6C05}</Project>
       <Name>Unity.XR.ARCore.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
+      <Project>{907FA1DE-C683-1959-C953-BF322BDDCE5D}</Project>
+      <Name>Oculus.Spatializer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.TTS.Samples.csproj">
       <Project>{5AC26217-CA0C-0569-0613-2D194DD4DE8F}</Project>
@@ -1039,6 +1039,10 @@
     <ProjectReference Include="Unity.TextMeshPro.csproj">
       <Project>{91049F91-1106-8943-5472-43C34E5E580E}</Project>
       <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Simulation.Editor.csproj">
+      <Project>{40639EA1-C15D-63F6-F7D2-E542934DFAB0}</Project>
+      <Name>Unity.XR.Simulation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
       <Project>{686AB25C-6004-3BE0-9846-0C12944CE988}</Project>
@@ -1087,10 +1091,6 @@
     <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj">
       <Project>{A2398A01-3643-1900-FEBC-7282C542534F}</Project>
       <Name>Oculus.AudioManager.Utils.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Simulation.Editor.csproj">
-      <Project>{40639EA1-C15D-63F6-F7D2-E542934DFAB0}</Project>
-      <Name>Unity.XR.Simulation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj">
       <Project>{C33F9715-718B-5BC0-5E68-CB07AFAC2663}</Project>

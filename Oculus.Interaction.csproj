@@ -141,8 +141,8 @@
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\PoseDetection\FeatureDescription.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Input\Hands\DataModifiers\LastKnownGoodDataModifier.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Core\InteractorDriverGroup.cs" />
-    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Core\UpdateDriverAfterDataSource.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\Locomotion\Turn\LocomotionTurnerInteractorVisual.cs" />
+    <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Core\UpdateDriverAfterDataSource.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Models\HandGrab\IHandGrabState.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\DistanceGrab\DistantPointDetector.cs" />
     <Compile Include="Assets\ThirdPartyInstallments\Oculus\Interaction\Runtime\Scripts\Interaction\Surfaces\IBounds.cs" />
