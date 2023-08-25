@@ -8,6 +8,6 @@ public class ConveyorBelt : MonoBehaviour
 
     void Start()
     {
-        conveyorAnime.Play("ConveyerBelt", 0, 0.0f);
+        conveyorAnime.Play("ConveyorBelt", 0, 0.0f);
     }
 }
