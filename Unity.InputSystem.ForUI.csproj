@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2647875b-e074-b4bf-9507-fb5033d908a0}</ProjectGuid>
+    <ProjectGuid>{783e57a6-6835-3ad6-3f72-2e34b4fc8091}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Unity.XR.OpenXR.Features.ConformanceAutomation</AssemblyName>
+    <AssemblyName>Unity.InputSystem.ForUI</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -40,8 +40,9 @@
     <Analyzer Include="C:\Program Files\Unity Versions\2022.3.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.8.1\ConformanceAutomation\ConformanceAutomationFeature.cs" />
-     <None Include="Library\PackageCache\com.unity.xr.openxr@1.8.1\ConformanceAutomation\Unity.XR.OpenXR.Features.ConformanceAutomation.asmdef" />
+     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.6.1\InputSystem\Plugins\InputForUI\InputSystemProvider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.6.1\InputSystem\Plugins\InputForUI\AssemblyInfo.cs" />
+     <None Include="Library\PackageCache\com.unity.inputsystem@1.6.1\InputSystem\Plugins\InputForUI\InputSystemForUI.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity Versions\2022.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -719,9 +720,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.XR.OpenXR.csproj">
-      <Project>{e711f0ff-0556-5ccc-dfb4-15c772f17df6}</Project>
-      <Name>Unity.XR.OpenXR</Name>
+    <ProjectReference Include="Unity.InputSystem.csproj">
+      <Project>{3022ccfc-4209-667d-8b8e-585bbbcf1a7f}</Project>
+      <Name>Unity.InputSystem</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
